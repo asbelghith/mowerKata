@@ -3,7 +3,7 @@ Java: JDK 22
 Spring Boot: 3.2.5
 Maven: 3.2.2
 
-NB: when executing the project, the output.txt file should be generated under src/main/resources containing results
+NB: when executing the project, the output.txt file should be generated under src/ containing results
 
 ## Building and Deployment
 ### Build Instructions
@@ -12,7 +12,7 @@ To build the project, make sure you have JDK 22 and Maven installed and that ter
 bash -> mvn clean install
 bash -> mvn spring-boot:run
 
-by executing this series of commands, an output.txt file should be generated under src/main/resources containing results of processing.
+by executing this series of commands, an output.txt file should be generated under the root directory containing results of processing.
 
 ### Running with Docker
 To run the application using Docker, follow these steps:
